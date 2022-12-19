@@ -1,0 +1,34 @@
+input[type="submit"]{
+    background-color: #fc636b;
+}
+table#tabela-mobile{
+    display: none;
+    margin-top: 5px;
+}
+table#tabela-mobile tr th{
+    text-transform: uppercase;
+}
+table#tabela-mobile tr td{
+    border-color: transparent;
+}
+.last-line{
+    border-bottom: 1px solid #000;
+}
+table#tabela-mobile tr th,td{
+    width: 100rem; 
+    text-align:center;
+    vertical-align: middle;
+}
+@media (min-width: 0px) and (max-width: 500px) {
+
+    table#tabela-desktop{
+       display: none;
+    }
+    table#tabela-mobile{
+        display: block;
+    }
+    
+}
+form#form-check label{
+    font-weight: 500;
+}
